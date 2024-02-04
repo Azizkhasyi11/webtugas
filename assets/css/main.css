@@ -27,8 +27,6 @@ th {
     background-color: #16161e;
 }
 
-
-
 footer {
     position: fixed;
     bottom: 0;
@@ -72,18 +70,18 @@ footer {
 }
 @media screen and (max-width: 600px) {
     table {
-        width: 450px;
+        width: 100%;
     }
 }
 @media screen and (max-width: 400px) {
     table {
         font-size: 10px;
-        width: 200px;
+        width: 100%;
     }
 }
 @media screen and (max-width: 375px) {
     table {
         font-size: 10px;
-        width: 100px;
+        width: 100%;
     }
 }

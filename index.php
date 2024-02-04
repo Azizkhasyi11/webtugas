@@ -19,7 +19,7 @@ require 'assets/php/functions.php';
 
 $rows = query("SELECT * FROM datas");
 
-setlocale(LC_ALL, 'id_ID');
+// setlocale(LC_ALL, 'id_ID');
 
 // var_dump($rows);
 ?>
@@ -32,7 +32,6 @@ setlocale(LC_ALL, 'id_ID');
     <title>Web Fortofolio</title>
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
 </head>
 
 <section class="title">
@@ -77,18 +76,17 @@ setlocale(LC_ALL, 'id_ID');
                 <i class="bi bi-discord"></i> Discord : <a class="link">BolehNgopi</a> <br>
             </td>
         </tr>
-
     </table>
 <?php endforeach; ?>
-<div class="mai">
-    <img src="assets/img/mai.png" alt="" width="690px">
-</div>
 
+
+<div class="mai">
+    <img src="assets/img/mai.png" alt="" width="100%">
+</div>
 
 <footer>
     &copy; <?php echo date("Y"); ?> Aziz Khasyi
 </footer>
-<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> -->
 </body>
 
 </html>

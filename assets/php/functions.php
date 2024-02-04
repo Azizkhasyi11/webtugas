@@ -1,6 +1,6 @@
 <?php
 // database connect
-$conn = mysqli_connect("host","username","password","database");
+$conn = mysqli_connect("localhost","root","","datadiri");
 
 function query($query)
 {
